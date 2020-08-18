@@ -1,12 +1,17 @@
 {
-  "name": "data_factory",
-  "version": "1.0.0",
+  "name": "@nodejayes/data_factory",
+  "version": "1.0.0-beta.1",
   "description": "create fake data",
-  "main": "index.js",
-  "author": "Markus Morgenstern",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Markus Morgenstern",
+    "email": "markusmorgenstern87@outlook.de"
+  },
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release": "npm publish",
+    "release:beta": "npm publish --tag beta"
   },
   "dependencies": {
     "ts-tooling": "^3.4.0"
