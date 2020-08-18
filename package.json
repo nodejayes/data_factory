@@ -1,0 +1,22 @@
+{
+  "name": "data_factory",
+  "version": "1.0.0",
+  "description": "create fake data",
+  "main": "index.js",
+  "author": "Markus Morgenstern",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ts-tooling": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "typescript": "^3.9.7"
+  }
+}
