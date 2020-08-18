@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdce5a21-7f96-418a-9ca5-c48b13ad2ed5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,30 +65,9 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\git\data_factory\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.release:beta">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="release:beta" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="release:beta" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <recent_temporary>
       <list>
-        <item itemvalue="npm.release:beta" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -101,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597767575690</updated>
       <workItem from="1597767576764" duration="2617000" />
-      <workItem from="1597770293698" duration="1358000" />
+      <workItem from="1597770293698" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1597771221820</created>
@@ -110,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597771221821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1597771856243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597771856243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,29 +119,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="256" key="GridCell.Tab.0.bottom" timestamp="1597771537420">
+    <state x="410" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597772016741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597771537420" />
-    <state width="1865" height="256" key="GridCell.Tab.0.center" timestamp="1597771537420">
+    <state x="410" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597772016741" />
+    <state width="1865" height="256" key="GridCell.Tab.0.bottom" timestamp="1597772062141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597771537420" />
-    <state width="1865" height="256" key="GridCell.Tab.0.left" timestamp="1597771537420">
+    <state width="1865" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597772062141" />
+    <state width="1865" height="256" key="GridCell.Tab.0.center" timestamp="1597772062141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597771537420" />
-    <state width="1865" height="256" key="GridCell.Tab.0.right" timestamp="1597771537420">
+    <state width="1865" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597772062141" />
+    <state width="1865" height="256" key="GridCell.Tab.0.left" timestamp="1597772062141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597771537420" />
+    <state width="1865" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597772062141" />
+    <state width="1865" height="256" key="GridCell.Tab.0.right" timestamp="1597772062141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597772062141" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1597767592829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597767592829" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1597771295393">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1597771861282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597771295393" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597771861282" />
   </component>
 </project>

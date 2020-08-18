@@ -1,8 +1,9 @@
 {
   "name": "@nodejayes/data_factory",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "create fake data",
   "main": "dist/index.js",
+  "types": "types",
   "author": {
     "name": "Markus Morgenstern",
     "email": "markusmorgenstern87@outlook.de"
